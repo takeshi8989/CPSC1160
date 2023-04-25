@@ -1,0 +1,274 @@
+
+command: mention
+expecting f = 0 and g = 0
+
+command: print
+f = 0
+g = 0
+
+command: mention
+f and g are the zero polynomial, expecting degree of f and of g to be -1
+
+command: degree
+degree of f = -1
+degree of g = -1
+
+command: input
+For polynomial f, enter # of terms, coeff degree, coeff, degree, ...
+For polynomial g, enter # of terms, coeff degree, coeff, degree, ...
+f = 2 - 3*x^1 + 4*x^3
+g = 2 - 3*x^1 + 4*x^3
+
+command: print
+f = 2 - 3*x^1 + 4*x^3
+g = 2 - 3*x^1 + 4*x^3
+
+command: add
+f = 2 - 3*x^1 + 4*x^3
+g = 2 - 3*x^1 + 4*x^3
+f + g = 4 - 6*x^1 + 8*x^3
+
+command: degree
+degree of f = 3
+degree of g = 3
+degree of f + g = 3
+
+command: coefficient
+Enter the degree of term whose coefficient you want 3
+in f,	4 is the coefficient of the term of degree 3
+in g,	4 is the coefficient of the term of degree 3
+in f+g,	8 is the coefficient of the term of degree 3
+continue getting coefficients? (y/n): yes
+Enter the degree of term whose coefficient you want 4
+in f,	0 is the coefficient of the term of degree 4
+in g,	0 is the coefficient of the term of degree 4
+in f+g,	0 is the coefficient of the term of degree 4
+continue getting coefficients? (y/n): no
+
+command: mention
+subtracting will give us as result the zero polynomial
+
+command: mention
+line 21
+
+command: subtract
+f = 2 - 3*x^1 + 4*x^3
+g = 2 - 3*x^1 + 4*x^3
+f - g = 0
+
+command: degree
+degree of f = 3
+degree of g = 3
+degree of f - g = -1
+
+command: mention
+let's start again with new polynomials, so let's reset
+
+command: reset
+
+command: mention
+line 28
+
+command: input
+For polynomial f, enter # of terms, coeff degree, coeff, degree, ...
+For polynomial g, enter # of terms, coeff degree, coeff, degree, ...
+f = 1 + x^500 + x^1000
+g = 1 + x^1 + x^2 + x^3 + x^4
+
+command: print
+f = 1 + x^500 + x^1000
+g = 1 + x^1 + x^2 + x^3 + x^4
+
+command: add
+f = 1 + x^500 + x^1000
+g = 1 + x^1 + x^2 + x^3 + x^4
+f + g = 2 + x^1 + x^2 + x^3 + x^4 + x^500 + x^1000
+
+command: degree
+degree of f = 1000
+degree of g = 4
+degree of f + g = 1000
+
+command: times
+enter the constant (scalar) to multiply f by: -7
+enter the constant (scalar) to multiply g by: 9
+f = -7 * f = -7 - 7*x^500 - 7*x^1000
+g = 9 * g = 9 + 9*x^1 + 9*x^2 + 9*x^3 + 9*x^4
+
+command: degree
+degree of f = 1000
+degree of g = 4
+
+command: reset
+
+command: mention
+line 49
+
+command: input
+For polynomial f, enter # of terms, coeff degree, coeff, degree, ...
+For polynomial g, enter # of terms, coeff degree, coeff, degree, ...
+f = 2
+g = -1 + x^1 + x^2
+
+command: print
+f = 2
+g = -1 + x^1 + x^2
+
+command: subtract
+f = 2
+g = -1 + x^1 + x^2
+f - g = 3 - x^1 - x^2
+
+command: degree
+degree of f = 0
+degree of g = 2
+degree of f - g = 2
+
+command: mention
+note that the there is no term to the power of 3
+
+command: mention
+line 63
+
+command: coefficient
+Enter the degree of term whose coefficient you want 0
+in f,	2 is the coefficient of the term of degree 0
+in g,	-1 is the coefficient of the term of degree 0
+in f-g,	3 is the coefficient of the term of degree 0
+continue getting coefficients? (y/n): yes
+Enter the degree of term whose coefficient you want 3
+in f,	0 is the coefficient of the term of degree 3
+in g,	0 is the coefficient of the term of degree 3
+in f-g,	0 is the coefficient of the term of degree 3
+continue getting coefficients? (y/n): no
+
+command: mention
+starting with new polynomials now
+
+command: mention
+line 72
+
+command: reset
+
+command: mention
+line 69
+
+command: input
+For polynomial f, enter # of terms, coeff degree, coeff, degree, ...
+For polynomial g, enter # of terms, coeff degree, coeff, degree, ...
+f = 1 + 2*x^1 + 5*x^9
+g = 1 - 2*x^1 - 5*x^9
+
+command: print
+f = 1 + 2*x^1 + 5*x^9
+g = 1 - 2*x^1 - 5*x^9
+
+command: add
+f = 1 + 2*x^1 + 5*x^9
+g = 1 - 2*x^1 - 5*x^9
+f + g = 2
+
+command: degree
+degree of f = 9
+degree of g = 9
+degree of f + g = 0
+
+command: coefficient
+Enter the degree of term whose coefficient you want 0
+in f,	1 is the coefficient of the term of degree 0
+in g,	1 is the coefficient of the term of degree 0
+in f+g,	2 is the coefficient of the term of degree 0
+continue getting coefficients? (y/n): yes
+Enter the degree of term whose coefficient you want 1
+in f,	2 is the coefficient of the term of degree 1
+in g,	-2 is the coefficient of the term of degree 1
+in f+g,	0 is the coefficient of the term of degree 1
+continue getting coefficients? (y/n): yes
+Enter the degree of term whose coefficient you want 9
+in f,	5 is the coefficient of the term of degree 9
+in g,	-5 is the coefficient of the term of degree 9
+in f+g,	0 is the coefficient of the term of degree 9
+continue getting coefficients? (y/n): yes
+Enter the degree of term whose coefficient you want 8
+in f,	0 is the coefficient of the term of degree 8
+in g,	0 is the coefficient of the term of degree 8
+in f+g,	0 is the coefficient of the term of degree 8
+continue getting coefficients? (y/n): no
+
+command: subtract
+f = 1 + 2*x^1 + 5*x^9
+g = 1 - 2*x^1 - 5*x^9
+f - g = 4*x^1 + 10*x^9
+
+command: degree
+degree of f = 9
+degree of g = 9
+degree of f - g = 9
+
+command: coefficient
+Enter the degree of term whose coefficient you want 0
+in f,	1 is the coefficient of the term of degree 0
+in g,	1 is the coefficient of the term of degree 0
+in f-g,	0 is the coefficient of the term of degree 0
+continue getting coefficients? (y/n): yes
+Enter the degree of term whose coefficient you want 1
+in f,	2 is the coefficient of the term of degree 1
+in g,	-2 is the coefficient of the term of degree 1
+in f-g,	4 is the coefficient of the term of degree 1
+continue getting coefficients? (y/n): yes
+Enter the degree of term whose coefficient you want 9
+in f,	5 is the coefficient of the term of degree 9
+in g,	-5 is the coefficient of the term of degree 9
+in f-g,	10 is the coefficient of the term of degree 9
+continue getting coefficients? (y/n): yes
+Enter the degree of term whose coefficient you want 8
+in f,	0 is the coefficient of the term of degree 8
+in g,	0 is the coefficient of the term of degree 8
+in f-g,	0 is the coefficient of the term of degree 8
+continue getting coefficients? (y/n): no
+
+command: mention
+line 109
+
+command: reset
+
+command: mention
+line 104
+
+command: input
+For polynomial f, enter # of terms, coeff degree, coeff, degree, ...
+For polynomial g, enter # of terms, coeff degree, coeff, degree, ...
+f = 3 + x^1 + 6*x^3 - 2*x^10
+g = 1 + 2*x^10 + x^21
+
+command: print
+f = 3 + x^1 + 6*x^3 - 2*x^10
+g = 1 + 2*x^10 + x^21
+
+command: add
+f = 3 + x^1 + 6*x^3 - 2*x^10
+g = 1 + 2*x^10 + x^21
+f + g = 4 + x^1 + 6*x^3 + x^21
+
+command: subtract
+f = 3 + x^1 + 6*x^3 - 2*x^10
+g = 1 + 2*x^10 + x^21
+f - g = 2 + x^1 + 6*x^3 - 4*x^10 - x^21
+
+command: times
+enter the constant (scalar) to multiply f by: 1
+enter the constant (scalar) to multiply g by: -1
+f = 1 * f = 3 + x^1 + 6*x^3 - 2*x^10
+g = -1 * g = -1 - 2*x^10 - x^21
+
+command: add
+f = 3 + x^1 + 6*x^3 - 2*x^10
+g = -1 - 2*x^10 - x^21
+f + g = 2 + x^1 + 6*x^3 - 4*x^10 - x^21
+
+command: degree
+degree of f = 10
+degree of g = 21
+degree of f + g = 21
+
+command: quit

@@ -1,0 +1,1 @@
+I added a funciton called calculateInflation in calculator file because the main function could be long.

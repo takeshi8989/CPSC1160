@@ -1,0 +1,131 @@
+mention
+expecting f = 0 and g = 0
+print
+mention
+f and g are the zero polynomial, expecting degree of f and of g to be -1
+degree
+input
+3 2 0 -3 1 4 3 
+3 -3 1 4 3 2 0
+print
+add
+degree
+coefficient
+3
+yes
+4
+no
+mention
+subtracting will give us as result the zero polynomial
+mention
+line 21
+subtract
+degree
+mention
+let's start again with new polynomials, so let's reset
+reset
+mention
+line 28
+input
+3
+1 0
+1 500
+1 1000
+5
+1 0
+1 1
+1 2
+1 3
+1 4
+print
+add
+degree
+times
+-7
+9
+degree
+reset
+mention
+line 49
+input
+1
+2 0
+3
+-1 0
+1 1
+1 2
+print
+subtract
+degree
+mention
+note that the there is no term to the power of 3
+mention
+line 63
+coefficient
+0
+yes
+3
+no
+mention 
+starting with new polynomials now
+mention
+line 72
+reset
+mention
+line 69
+input
+3
+1 0
+2 1
+5 9
+3
+1 0
+-2 1
+-5 9
+print
+add
+degree
+coefficient
+0
+yes
+1
+yes
+9
+yes
+8
+no
+subtract
+degree
+coefficient
+0
+yes
+1
+yes
+9
+yes
+8
+no
+mention
+line 109
+reset
+mention
+line 104
+input
+4
+3 0
+6 3
+-2 10
+1 1
+3
+1 21
+2 10
+1 0
+print
+add
+subtract
+times
+1
+-1
+add
+degree
+quit
